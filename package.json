@@ -1,0 +1,23 @@
+{
+  "name": "il210-color-theme-vsc",
+  "displayName": "il210 Custom Theme",
+  "description": "il210 custom color theme based on an git theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IVTT/il210-color-theme-vsc"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Il210 Custom Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/il210-color-theme-vsc.json"
+      }
+    ]
+  }
+}
